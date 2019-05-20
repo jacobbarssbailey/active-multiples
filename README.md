@@ -1,11 +1,11 @@
 # Active Multiples
-This project provides tested plans for a 4HP Eurorack-format synthesizer module, containing two banks of 1 -> 3 active buffers, taking any signal at the input and precisely replicating it on the three outputs. The module PCB should fit behind a 3HP panel.
+This project provides tested plans for a 4HP Eurorack-format synthesizer module, containing two banks of 1 -> 3 active buffers, taking any signal at the input and precisely replicating it on the three outputs.
 
+The module PCB should fit behind a 3HP panel.
 
-![Assembled module](/media/foo.jpg)
+![Assembled module](/media/bar.jpg)
 
-
-
+![Boards](/media/foo.jpg)
 
 
 ## BOM 
@@ -18,7 +18,7 @@ Qty | Value            | Device                  | Package             | Parts  
 3   | TL072            | Dual op amp             | TSSOP8              |                                                      |
 
 
-## Notes on assembly:
-1. 
-
+## Notes
+1. Solder the power connector before soldering signal jacks. There is very little space between the jacks to reach the top of the board after they are attached.
+1. Input A (labeled on PCB) drives output A1, A2, A3; Input B drives output B1, B2, B3. Input A is normalled to Input B; if this behavior isn't desired, cut jumper trace labeled A->B.
 
