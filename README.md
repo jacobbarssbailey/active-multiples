@@ -1,7 +1,7 @@
 # Active Multiples
 This project provides tested plans for a 4HP Eurorack-format synthesizer module, containing two banks of 1 -> 3 active buffers, taking any signal at the input and precisely replicating it on the three outputs.
 
-![Assembled module](/media/1-in-rack)
+![Assembled module](/media/1-in-rack.jpg)
 
 ![Boards](/media/2-boards-front-back.jpg)
 
