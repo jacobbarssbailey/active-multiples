@@ -10,10 +10,10 @@ This project provides tested plans for a 4HP Eurorack-format synthesizer module,
 
 Qty | Value            | Device                  | Package             | Parts                                                |
 --- | ---------------- | ----------------------- | ------------------- | ---------------------------------------------------- |
-8   |                  | Inline mono jack        |                     | A, A1, A2, A3, B, B1, B2, B3                         |
-1   |                  | 5x2                     | 2.54mm Pin          | Power                                                |
+3   | TL072            | Dual op amp             | TSSOP8              | ICxx                                                 |
 6   | ~100nF           | Capacitor               | 0603                | DC1 – DC6                                            |
-3   | TL072            | Dual op amp             | TSSOP8              |                                                      |
+1   |                  | 5x2                     | 2.54mm Pin          | Power                                                |
+8   |                  | Inline mono jack        | Thonkconn           | A, A1, A2, A3, B, B1, B2, B3                         |
 
 
 ## Notes
